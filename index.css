@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 10px 0;
+}
+
+.menu {
+    font-size: 24px;
+    color: #E5E7EB;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.courseName{
+    margin-left: 20%;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 1 1 0%;
+}
+
+.link1 {
+    margin-left: 60%;
+    margin-right: auto;
+}
+
+.link2,
+.link3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 1%
+}
+
+.underMenu{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.introduction {
+    width: 500px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.myPicture {
+    margin-right: 30%;
+    margin-top: 3%;
+    width: 10%;
+}
+
+    .raze{
+    width: 100%;
+    height: 100%;
+    }
+
+h1 {
+        font-size: 40px;
+        color: #F9FAF8; 
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.projects {
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    margin-top: 2%;
+  }
+
+.project1,
+.project2,
+.project3,
+.project4 {
+    width: 150px;
+    border: 2px solid;
+    border-color: #3882F6;
+    border-radius: 10%;
+    padding: 50px;
+    margin: 1%;
+}
+
+.project1 {
+    margin-left: 25%;
+}
+.project4 {
+    margin-right: 25%;
+}
+
+.descriptions{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.description1,
+.description2,
+.description3,
+.description4{
+    width: 150px;
+    text-align: center;
+}
+
+.description1 {
+    margin-left: 25%;
+}
+.description4 {
+    margin-right: 25%;
+}
+
+.footer {
+    background-color: #1f2937;
+    width: 100%;
+    margin-top: 15% ;
+    padding: 2%;
+    font-size: 15px;
+    color: #E5E7EB;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+}
